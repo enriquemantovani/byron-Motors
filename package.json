@@ -1,17 +1,25 @@
 {
-  "name": "byron-motors-projeto-capacitacao-trainee",
+  "name": "byron-motors",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/css/style.css -o ./src/output.css --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enriquemantovani/byron-Motors.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/enriquemantovani/byron-Motors/issues"
+  },
+  "homepage": "https://github.com/enriquemantovani/byron-Motors#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.22",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.17"
+    "tailwindcss": "^3.4.17"
   }
 }
